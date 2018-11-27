@@ -12,6 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ACMoreResponseButton : UIButton
 
+// 扩大点击的区域，顺序依次是左、上、右、下
+@property (nonatomic) CGRect moreArea;
+
+- (instancetype)initWithFrame:(CGRect)frame moreArea:(CGRect)moreArea;
+
++ (instancetype)moreAreaButtonWithFrame:(CGRect)frame moreArea:(CGRect)moreArea;
+
 @end
 
 NS_ASSUME_NONNULL_END

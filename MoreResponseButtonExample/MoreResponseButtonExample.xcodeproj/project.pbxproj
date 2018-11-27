@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F037D1B921AD7AFF00578872 /* ACMoreResponseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F037D1B821AD7AFF00578872 /* ACMoreResponseButton.m */; };
 		F078264A21AD51B10009F9C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F078264921AD51B10009F9C2 /* AppDelegate.m */; };
 		F078264D21AD51B10009F9C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078264C21AD51B10009F9C2 /* ViewController.m */; };
 		F078265021AD51B10009F9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F078264E21AD51B10009F9C2 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F037D1B721AD7AFF00578872 /* ACMoreResponseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ACMoreResponseButton.h; path = MoreResponseButtonExample/ACMoreResponseButton/ACMoreResponseButton.h; sourceTree = SOURCE_ROOT; };
+		F037D1B821AD7AFF00578872 /* ACMoreResponseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ACMoreResponseButton.m; path = MoreResponseButtonExample/ACMoreResponseButton/ACMoreResponseButton.m; sourceTree = SOURCE_ROOT; };
 		F078264521AD51B10009F9C2 /* MoreResponseButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreResponseButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F078264821AD51B10009F9C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F078264921AD51B10009F9C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F037D1B621AD7AB500578872 /* ACMoreResponseButton */ = {
+			isa = PBXGroup;
+			children = (
+				F037D1B721AD7AFF00578872 /* ACMoreResponseButton.h */,
+				F037D1B821AD7AFF00578872 /* ACMoreResponseButton.m */,
+			);
+			name = ACMoreResponseButton;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F078263C21AD51B10009F9C2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 		F078264721AD51B10009F9C2 /* MoreResponseButtonExample */ = {
 			isa = PBXGroup;
 			children = (
+				F037D1B621AD7AB500578872 /* ACMoreResponseButton */,
 				F078264821AD51B10009F9C2 /* AppDelegate.h */,
 				F078264921AD51B10009F9C2 /* AppDelegate.m */,
 				F078264B21AD51B10009F9C2 /* ViewController.h */,
@@ -265,6 +279,7 @@
 				F078264D21AD51B10009F9C2 /* ViewController.m in Sources */,
 				F078265821AD51B20009F9C2 /* main.m in Sources */,
 				F078264A21AD51B10009F9C2 /* AppDelegate.m in Sources */,
+				F037D1B921AD7AFF00578872 /* ACMoreResponseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoreResponseButtonExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoreResponseButtonExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
